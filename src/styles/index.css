@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: 100%;
+  background-size: cover;
+  color: black;
+}
+
+.footer {
+  background-color: white;
+  color: black; /* Cambia el color del texto si es necesario */
+  text-align: right;
+  
+}
+
+a {
+  text-decoration: none;
+}
+
+.bg-custom {
+  background-color: white;
+  border: 3px white;
+  -webkit-box-shadow: 5px 5px 15px 5px black;
+  box-shadow: 5px 5px 15px 5px black;
+  color: black;
+}
+.navbar-container {
+  padding-left: 0; /* Ajuste del padding izquierdo */
+}
+.text-white {
+  --bs-text-opacity: 1;
+  color: #040404 !important;
+  }
+
